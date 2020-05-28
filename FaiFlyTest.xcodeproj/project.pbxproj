@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ED611CEBFC93136837461C /* Pods_FaiFlyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8175E89F7C3CB74A340121 /* Pods_FaiFlyTest.framework */; };
+		F150EE3A21DEC3B800261253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150EE3921DEC3B800261253 /* AppDelegate.swift */; };
+		F150EE3C21DEC3B800261253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150EE3B21DEC3B800261253 /* ViewController.swift */; };
+		F150EE3F21DEC3B800261253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150EE3D21DEC3B800261253 /* Main.storyboard */; };
+		F150EE4221DEC3B800261253 /* FaiFlyTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F150EE4021DEC3B800261253 /* FaiFlyTest.xcdatamodeld */; };
+		F150EE4421DEC3BF00261253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F150EE4321DEC3BF00261253 /* Assets.xcassets */; };
+		F150EE4721DEC3BF00261253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F150EE4521DEC3BF00261253 /* LaunchScreen.storyboard */; };
+		F16C2C2F21E2D48C00CFDAA6 /* SityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16C2C2E21E2D48C00CFDAA6 /* SityTableViewCell.swift */; };
+		F16C2C3121E38E4700CFDAA6 /* ExtendedInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16C2C3021E38E4700CFDAA6 /* ExtendedInformationViewController.swift */; };
+		F18FD4C221E39CEE002860CE /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FD4C121E39CEE002860CE /* RequestManager.swift */; };
+		F18FD4C421E41419002860CE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FD4C321E41419002860CE /* CoreDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81996DBB7CEF0034C3ACC278 /* Pods-FaiFlyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaiFlyTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaiFlyTest/Pods-FaiFlyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8B8175E89F7C3CB74A340121 /* Pods_FaiFlyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaiFlyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE40101862269ECC29290691 /* Pods-FaiFlyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaiFlyTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaiFlyTest/Pods-FaiFlyTest.release.xcconfig"; sourceTree = "<group>"; };
+		F150EE3621DEC3B800261253 /* FaiFlyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaiFlyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F150EE3921DEC3B800261253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F150EE3B21DEC3B800261253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F150EE3E21DEC3B800261253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F150EE4121DEC3B800261253 /* FaiFlyTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaiFlyTest.xcdatamodel; sourceTree = "<group>"; };
+		F150EE4321DEC3BF00261253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F150EE4621DEC3BF00261253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F150EE4821DEC3BF00261253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16C2C2E21E2D48C00CFDAA6 /* SityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SityTableViewCell.swift; sourceTree = "<group>"; };
+		F16C2C3021E38E4700CFDAA6 /* ExtendedInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedInformationViewController.swift; sourceTree = "<group>"; };
+		F18FD4C121E39CEE002860CE /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		F18FD4C321E41419002860CE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F150EE3321DEC3B800261253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ED611CEBFC93136837461C /* Pods_FaiFlyTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB364700452A896A5DE7A17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81996DBB7CEF0034C3ACC278 /* Pods-FaiFlyTest.debug.xcconfig */,
+				EE40101862269ECC29290691 /* Pods-FaiFlyTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1962DC9E2DD27D7C196D4C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8175E89F7C3CB74A340121 /* Pods_FaiFlyTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F150EE2D21DEC3B800261253 = {
+			isa = PBXGroup;
+			children = (
+				F150EE3821DEC3B800261253 /* FaiFlyTest */,
+				F150EE3721DEC3B800261253 /* Products */,
+				5BB364700452A896A5DE7A17 /* Pods */,
+				A1962DC9E2DD27D7C196D4C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F150EE3721DEC3B800261253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F150EE3621DEC3B800261253 /* FaiFlyTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F150EE3821DEC3B800261253 /* FaiFlyTest */ = {
+			isa = PBXGroup;
+			children = (
+				F150EE3921DEC3B800261253 /* AppDelegate.swift */,
+				F150EE3B21DEC3B800261253 /* ViewController.swift */,
+				F16C2C2E21E2D48C00CFDAA6 /* SityTableViewCell.swift */,
+				F16C2C3021E38E4700CFDAA6 /* ExtendedInformationViewController.swift */,
+				F18FD4C121E39CEE002860CE /* RequestManager.swift */,
+				F18FD4C321E41419002860CE /* CoreDataManager.swift */,
+				F150EE4321DEC3BF00261253 /* Assets.xcassets */,
+				F150EE3D21DEC3B800261253 /* Main.storyboard */,
+				F150EE4521DEC3BF00261253 /* LaunchScreen.storyboard */,
+				F150EE4821DEC3BF00261253 /* Info.plist */,
+				F150EE4021DEC3B800261253 /* FaiFlyTest.xcdatamodeld */,
+			);
+			path = FaiFlyTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F150EE3521DEC3B800261253 /* FaiFlyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F150EE4B21DEC3BF00261253 /* Build configuration list for PBXNativeTarget "FaiFlyTest" */;
+			buildPhases = (
+				695D6F87807C6F40AE319A34 /* [CP] Check Pods Manifest.lock */,
+				F150EE3221DEC3B800261253 /* Sources */,
+				F150EE3321DEC3B800261253 /* Frameworks */,
+				F150EE3421DEC3B800261253 /* Resources */,
+				26410E67AA1D7D9B15D0B097 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaiFlyTest;
+			productName = FaiFlyTest;
+			productReference = F150EE3621DEC3B800261253 /* FaiFlyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F150EE2E21DEC3B800261253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Valeriy;
+				TargetAttributes = {
+					F150EE3521DEC3B800261253 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F150EE3121DEC3B800261253 /* Build configuration list for PBXProject "FaiFlyTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F150EE2D21DEC3B800261253;
+			productRefGroup = F150EE3721DEC3B800261253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F150EE3521DEC3B800261253 /* FaiFlyTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F150EE3421DEC3B800261253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150EE4721DEC3BF00261253 /* LaunchScreen.storyboard in Resources */,
+				F150EE4421DEC3BF00261253 /* Assets.xcassets in Resources */,
+				F150EE3F21DEC3B800261253 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26410E67AA1D7D9B15D0B097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaiFlyTest/Pods-FaiFlyTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaiFlyTest/Pods-FaiFlyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695D6F87807C6F40AE319A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaiFlyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F150EE3221DEC3B800261253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150EE3C21DEC3B800261253 /* ViewController.swift in Sources */,
+				F150EE3A21DEC3B800261253 /* AppDelegate.swift in Sources */,
+				F16C2C2F21E2D48C00CFDAA6 /* SityTableViewCell.swift in Sources */,
+				F18FD4C221E39CEE002860CE /* RequestManager.swift in Sources */,
+				F16C2C3121E38E4700CFDAA6 /* ExtendedInformationViewController.swift in Sources */,
+				F18FD4C421E41419002860CE /* CoreDataManager.swift in Sources */,
+				F150EE4221DEC3B800261253 /* FaiFlyTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F150EE3D21DEC3B800261253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F150EE3E21DEC3B800261253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F150EE4521DEC3BF00261253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F150EE4621DEC3BF00261253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F150EE4921DEC3BF00261253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F150EE4A21DEC3BF00261253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F150EE4C21DEC3BF00261253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81996DBB7CEF0034C3ACC278 /* Pods-FaiFlyTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54P7YR396K;
+				INFOPLIST_FILE = FaiFlyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgs.Hello-World.FaiFlyTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F150EE4D21DEC3BF00261253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE40101862269ECC29290691 /* Pods-FaiFlyTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54P7YR396K;
+				INFOPLIST_FILE = FaiFlyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fgs.Hello-World.FaiFlyTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F150EE3121DEC3B800261253 /* Build configuration list for PBXProject "FaiFlyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150EE4921DEC3BF00261253 /* Debug */,
+				F150EE4A21DEC3BF00261253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F150EE4B21DEC3BF00261253 /* Build configuration list for PBXNativeTarget "FaiFlyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150EE4C21DEC3BF00261253 /* Debug */,
+				F150EE4D21DEC3BF00261253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F150EE4021DEC3B800261253 /* FaiFlyTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F150EE4121DEC3B800261253 /* FaiFlyTest.xcdatamodel */,
+			);
+			currentVersion = F150EE4121DEC3B800261253 /* FaiFlyTest.xcdatamodel */;
+			path = FaiFlyTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F150EE2E21DEC3B800261253 /* Project object */;
+}
